@@ -1,0 +1,24 @@
+.container__result {
+  border: 2px solid #ccae07;
+  background-color: #000;
+  max-width: 300px;
+  margin: 100px auto;
+  border-radius: 5px;
+  p {
+    height: 50px;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    span {
+      background-color: #ccae07;
+      color: #000;
+      display: inline-block;
+      border-radius: 5px;
+      width: 80px;
+      height: 40px;
+      margin-left: 20px;
+      padding: 5px;
+    }
+  }
+}

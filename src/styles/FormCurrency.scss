@@ -1,0 +1,33 @@
+.form__currency {
+  outline: 2px solid #ccae07;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #000;
+  label {
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  select {
+    margin: 10px 30px 10px 5px;
+  }
+  input {
+    margin: 10px 0 10px 5px;
+  }
+}
+.btn__form {
+  display: block;
+  margin: 70px auto 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ccae07;
+  border: 1px solid #ccae07;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    background-color: #413808;
+    color: #ccae07;
+  }
+}
