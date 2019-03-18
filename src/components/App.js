@@ -44,7 +44,7 @@ class App extends Component {
           error: false
         })
       })
-      .catch(err => {
+      .catch(error => {
         this.setState({
           error: true
         })
